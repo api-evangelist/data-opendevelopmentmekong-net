@@ -1,4 +1,4 @@
-# Open Development Mekong (data-opendevelopmentmekong-net)
+# Open Development Mekong
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Open Development Mekong is a organization open-data portal for Mekong Region running **CKAN**, exposing a standardized catalog API over ~13,483 datasets.
+Open Development Mekong is a organization open-data portal for Mekong Region running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 13,483 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/data-opendevelopmentmekong-net/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Organization · Mekong Region
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=data-opendevelopmentmekong-net-api-evangelist&utm_content=repo)
+## Open Development Mekong on APIs.io
 
-## Type
-- **kind:** organization  ·  **software:** CKAN  ·  **version:** 2.9.9
+Everything profiled for Open Development Mekong is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/data-opendevelopmentmekong-net/](https://apis.io/providers/data-opendevelopmentmekong-net/)** — or go straight to one of the APIs or properties below.
 
-## API
-- **Open Development Mekong CKAN Action API** — base `https://data.opendevelopmentmekong.net/api/3/action`. [Docs](https://docs.ckan.org/en/latest/api/) · [Portal](https://data.opendevelopmentmekong.net)
-- Live endpoint verified: `https://data.opendevelopmentmekong.net/api/3/action/status_show` · ~13,483 datasets
+### APIs (1)
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/data-opendevelopmentmekong-net-plans-pricing.yml) — Free / open public data API.
-- [RateLimits](rate-limits/data-opendevelopmentmekong-net-rate-limits.yml) — No published limit; harvest politely.
-- [FinOps](finops/data-opendevelopmentmekong-net-finops.yml) — Public open data; no usage-based billing.
+- [Open Development Mekong CKAN Action API](https://apis.io/apis/data-opendevelopmentmekong-net/catalog/) — CKAN Action API for Open Development Mekong, a consistent JSON-over-HTTP interface over a catalog of 13,483 datasets. Standard actions include…
 
-## Timestamps
-- **Created:** 2026-06-04
-- **Modified:** 2026-06-04
+### Published properties
 
-## Maintainers
-**FN:** Kin Lane
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Email:** kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Data Opendevelopmentmekong Net Domain Security](https://apis.io/security/data-opendevelopmentmekong-net/data-opendevelopmentmekong-net-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Data Opendevelopmentmekong Net Plans Pricing](https://apis.io/plans/data-opendevelopmentmekong-net/data-opendevelopmentmekong-net-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Data Opendevelopmentmekong Net Rate Limits](https://apis.io/rate-limits/data-opendevelopmentmekong-net/data-opendevelopmentmekong-net-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Data Opendevelopmentmekong Net Finops](https://apis.io/finops/data-opendevelopmentmekong-net/data-opendevelopmentmekong-net-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://data.opendevelopmentmekong.net)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+- [Blog](https://opendevelopmentmekong.net/feed/)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/data-opendevelopmentmekong-net/](https://apis.io/providers/data-opendevelopmentmekong-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Open Development Mekong: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/data-opendevelopmentmekong-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
